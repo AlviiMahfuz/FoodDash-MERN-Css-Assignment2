@@ -22,6 +22,7 @@ body {
 .hero-top-bg {
     background-color: #fdf0e9;
     padding-bottom: 90px;
+    padding-top: 80px;
 }
 
 /* navbar start */
@@ -29,6 +30,15 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 20px 10px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 100;
+
 }
 
 .navbar {
